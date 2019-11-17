@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>高级选择器案例实践</title>
+<style type="text/css">
+	*{margin: 0;padding:0;}
+	li{list-style: none;}
+	a{text-decoration: none;color:inherit;}
+	.nav{width:300px;
+		margin:100px auto 0;}
+	.nav h3{
+		height: 40px;
+		font-weight: lighter;
+		line-height: 40px;
+		font-size:22px;
+	}
+	.nav h3:before{
+		content:'';
+		display: inline-block;
+		width:40px;
+		height:39px;
+		background: url('images/bg1.png')no-repeat -162px -416px;
+		vertical-align: middle;
+	}
+	.nav h3 a{
+		vertical-align: middle;
+	}
+	.nav li{
+		height:40px;
+		background-color: #DDD;
+		text-indent:10px;
+	line-height: 40px;
+	margin-bottom: 1px;}
+	.nav li:hover{
+		background-color: #DBB783;
+		color: #FFF;
+	}
+	</style>
+</head>
+
+<body>
+<div class="nav">
+<h3><a href="">美图赏析</a></h3>
+<ul>
+<li><a harf="#">美女人像</a></li>
+<li><a harf="#">风光人文</a></li>
+<li><a harf="#">卡通动漫</a></li>
+<li><a harf="#">动物萌宠</a></li>
+<li><a harf="#">植物花卉</a></li>
+</ul>
+</div>
+</body>
+</html>
